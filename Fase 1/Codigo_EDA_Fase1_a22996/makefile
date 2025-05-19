@@ -1,14 +1,16 @@
-# Makefile para o projeto EDA - Fase 2
+# Makefile para o projeto EDA - Fase 1 no Windows com mingw32-make
 
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 
 SRC_DIR = .
-GRAFOS_DIR = Grafos
+ANTENAS_DIR = ListaAntenas
+NEFASTOS_DIR = EfeitosNefastos
 
 SRCS = \
 	$(SRC_DIR)/main.c \
-	$(GRAFOS_DIR)/grafos.c
+	$(ANTENAS_DIR)/antenas.c \
+	$(NEFASTOS_DIR)/nefastos.c
 
 TARGET = programa
 
